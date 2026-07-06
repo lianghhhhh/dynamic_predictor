@@ -1,0 +1,13 @@
+{
+    "data_dir": "motorData",
+    "data_source": [ "motor_chirp_data.csv", "motor_hold_ramp_data.csv", "motor_ou_data.csv" ],
+    "test_data_source": "motor_ou_data_fixed_20hz.csv",
+    "log_dir": "test",
+    "model_save_path": "models/test_.pth",
+    "result_png": "test.png",
+    "batch_size": 32,
+    "epochs": 300,
+    "learning_rate": 0.001,
+    "test_split": 0.2,
+    "validation_split": 0.1
+}
