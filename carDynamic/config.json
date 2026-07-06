@@ -1,0 +1,17 @@
+{
+    "data_dir": "carData",
+    "data_source": [ "car_data_hold_ramp.csv", "car_data_hold_ramp_turn.csv", "car_data_hold_ramp_turn_2.csv", "car_data_ou.csv", "car_data_ou_turn.csv", "car_data_ou_turn_2.csv" ],
+    "test_data_source": "car_data_ou_test_2.csv",
+    "log_dir": "temp_new_train_2_warmup_seq40_physics_flip_all_angle_fix_new_weight_0_20_50_jump014_multistep_k25_lower_grad_lr",
+    "model_save_path": "models/temp_new_train_2_warmup_seq40_physics_flip_all_angle_fix_new_weight_0_20_50_jump014_multistep_k25_lower_grad_lr.pth",
+    "result_png": "temp_new_train_2_warmup_seq40_physics_flip_all_angle_fix_new_weight_0_20_50_jump014_multistep_k25_lower_grad_lr.png",
+    "batch_size": 32,
+    "epochs": 300,
+    "learning_rate": 0.0005,
+    "test_split": 0.2,
+    "validation_split": 0.1,
+    "use_multistep_training": true,
+    "multistep_k": 25,
+    "multistep_k_start": 5,
+    "multistep_k_warmup_epochs": 30
+}
