@@ -1,0 +1,22 @@
+{
+    "data_dir": "../carDynamic/carData",
+    "data_source": [ "car_data_hold_ramp.csv", "car_data_hold_ramp_turn.csv", "car_data_hold_ramp_turn_2.csv", "car_data_ou.csv", "car_data_ou_turn.csv", "car_data_ou_turn_2.csv" ],
+    "test_data_source": "car_data_ou_test_2.csv",
+    "log_dir": "new_model_2_new_body_3",
+    "model_save_path": "models/new_model_2_new_body_3.pth",
+    "result_png": "new_model_2_new_body_3.png",
+    "batch_size": 32,
+    "epochs": 300,
+    "learning_rate": 0.0003,
+    "test_split": 0.2,
+    "validation_split": 0.1,
+    "use_multistep_training": true,
+    "multistep_k": 40,
+    "multistep_k_start": 5,
+    "multistep_k_warmup_epochs": 50,
+    "noise_std_max": 0.1,
+    "noise_warmup_epochs": 30,
+    "weight_xy": 10.0,
+    "weight_theta": 20.0,
+    "weight_slip": 50.0
+}
